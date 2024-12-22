@@ -1,0 +1,142 @@
+﻿@model BookMe.Application.Service.Dto.ServiceDto
+
+@using Bogus
+@using Microsoft.AspNetCore.Mvc
+
+@{
+    var opinionsDescription = "Opinie, przy których widoczny jest znacznik „Zweryfikowany użytkownik BookMe” to opinie, co do których BookMe zapewnia, że pochodzą od zarejestrowanych użytkowników BookMe, którzy faktycznie skorzystali z danej usługi. Wyłącznie po zrealizowaniu danej usługi, zarejestrowany użytkownik BookMe uzyskuje możliwość opublikowania opinii.";
+    var isEmployee = (bool)ViewData["IsEmployee"];
+    var serviceImages = ViewData["ServiceImages"] as List<BookMe.Domain.Entities.ServiceImage> ?? new List<BookMe.Domain.Entities.ServiceImage>();
+}
+
+
+
+<div class="invisible service-encoded-name">@Model.EncodedName</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="service-details position-relative">
+               
+                <div class="swiper-container details-swiper-container">
+                    <div class="swiper-wrapper">
+                      
+                        <div class="swiper-slide">
+                            <img src="@Model.ImageUrl" alt="Główne zdjęcie" class="img-fluid w-100 service-image">
+                        </div>
+
+                        
+                        @foreach (var image in serviceImages)
+                        {
+                            <div class="swiper-slide">
+                                <img src="@image.Url" alt="Zdjęcie usługi" class="img-fluid w-100 service-image">
+                            </div>
+                        }
+                    </div>
+                 
+                    <div class="swiper-pagination details-swiper-pagination"></div>
+                  
+                    <div class="swiper-button-next details-swiper-button-next"></div>
+                    <div class="swiper-button-prev details-swiper-button-prev"></div>
+                </div>
+
+                <!-- Karta z oceną -->
+                <div class="card-rating card-rating-extended">
+                    <div class="rating">@Model.AverageRating.ToString("F1")</div>
+                    <span class="opinions-count">@Model.OpinionsCount opinii</span>
+                </div>
+
+                <!-- Nazwa i adres usługi -->
+                <h3 class="mt-3 text-secondary service-name">@Model.Name</h3>
+                <small class="text-secondary service-address">@Model.Street, @Model.PostalCode, @Model.City</small>
+            </div>
+
+            <div class="services mt-5">
+                <h4>Usługi</h4>
+                @foreach (var offer in Model.Offers)
+                {
+                    <div class="service-form mt-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="offer-name mb-0">@offer.Name</p>
+                            <div class="offer-details d-flex align-items-center">
+                                <span class="offer-price mr-3">
+                                    @offer.Price.ToString("c")
+                                    <small class="text-secondary">@($"{offer.Duration}m")</small>
+                                </span>
+                                @if (!isEmployee)
+                                {
+                                    <form method="get" action='@Url.Action("Create", "Booking", new { serviceEncodedName = Model.EncodedName ,offerEncodedName = offer.EncodedName })' class="mb-0">
+                                        <button class="btn btn-success btn-sm">Umów</button>
+                                    </form>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="reviews mt-5">
+                <h4>Opinie</h4>
+                <div class="row">
+                    <div class="col-12">@opinionsDescription</div>
+                </div>
+                <div class="w-100">
+                    <h5 class="mt-5 text-center">Wybierz ilość wyników</h5>
+                    <div class="row mt-3 justify-content-center">
+                        <div class="col-2"><button class="btn btn-outline-secondary page-size-button">5</button></div>
+                        <div class="col-2"><button class="btn btn-outline-secondary page-size-button">10</button></div>
+                        <div class="col-2"><button class="btn btn-outline-secondary page-size-button">15</button></div>
+                        <div class="col-2"><button class="btn btn-outline-secondary page-size-button">20</button></div>
+                    </div>
+                </div>
+                <div class="opinions mt-4 row"></div>
+                <nav class="mt-5">
+                    <ul class="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+
+   
+        <div class="col-md-4 bg-light py-5">
+            <h6>O nas</h6>
+            <p>@Model.Description</p>
+            <div class="text-center mt-4">
+                <span class="fa-solid fa-phone"></span>
+                <span class="pl-3">@Model.PhoneNumber</span>
+            </div>
+            <div class="row mt-5 text-center">
+                @foreach (var openingHour in Model.OpeningHours)
+                {
+                    <div class="col-6 font-weight-bold">
+                        @openingHour.DayOfWeek
+                    </div>
+                    <div class="col-6">
+                        @if (openingHour.Closed)
+                        {
+                            <span>Zamknięte</span>
+                        }
+                        else
+                        {
+                            <span>@openingHour.OpeningTime.ToString(@"hh\:mm") - @openingHour.ClosingTime.ToString(@"hh\:mm")</span>
+                        }
+                    </div>
+                }
+            </div>
+            <div class="mt-5">
+                <h5 class="text-center">Pracownicy:</h5>
+                @foreach (var employee in Model.Employees)
+                {
+                    <div class="employee mt-5 text-center">
+                        <img class="rounded-circle employee-avatar" src="@(string.IsNullOrEmpty(employee.AvatarUrl)
+                                                                             ? "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png"
+                                                                             : employee.AvatarUrl)" />
+                        <p>@employee.FirstName @employee.LastName</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/serviceDetails.js" asp-append-version="true"></script>
+    <script src="~/js/opinions.js" asp-append-version="true"></script>
+}

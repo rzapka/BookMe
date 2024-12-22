@@ -1,0 +1,14 @@
+D:\dotnet\BookMe\BookMe.Domain\bin\Debug\net8.0\BookMe.Domain.deps.json
+D:\dotnet\BookMe\BookMe.Domain\bin\Debug\net8.0\BookMe.Domain.runtimeconfig.json
+D:\dotnet\BookMe\BookMe.Domain\bin\Debug\net8.0\BookMe.Domain.dll
+D:\dotnet\BookMe\BookMe.Domain\bin\Debug\net8.0\BookMe.Domain.pdb
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.csproj.AssemblyReference.cache
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.AssemblyInfoInputs.cache
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.AssemblyInfo.cs
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.csproj.CoreCompileInputs.cache
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.dll
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\refint\BookMe.Domain.dll
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.pdb
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\BookMe.Domain.genruntimeconfig.cache
+D:\dotnet\BookMe\BookMe.Domain\obj\Debug\net8.0\ref\BookMe.Domain.dll

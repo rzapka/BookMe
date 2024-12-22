@@ -1,0 +1,30 @@
+﻿@model List<BookMe.Domain.Entities.ServiceCategory>
+@{
+    var encodedName = ViewContext.RouteData.Values["encodedName"]?.ToString();
+}
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 d-flex justify-content-around">
+
+                @foreach (var category in Model)
+                {
+                    <li class="nav-item category">
+                        <a class="nav-link @(category.EncodedName == @encodedName ? "active" : "")" asp-controller="ServiceCategory" asp-action="Details" asp-route-encodedName="@category.EncodedName">
+                            @category.Name
+                        </a>
+                    </li>
+                }
+
+                <li class="nav-item category">
+                    <a class="nav-link @(encodedName == "inne" ? "active" : "")" asp-controller="ServiceCategory" asp-action="Details" asp-route-encodedName="inne">
+                        Inne
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

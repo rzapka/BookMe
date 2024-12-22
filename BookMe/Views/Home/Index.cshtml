@@ -1,0 +1,88 @@
+﻿@model BookMe.Models.HomeViewModel
+
+<div>
+    <div class="container overflow-hidden swiper1">
+        <h4 class="my-5">Polecane</h4>
+        <div class="fa-solid fa-arrow-left swiper-button-prev1 category-left-arrow"></div>
+        <div class="recommended-items swiper-wrapper" role="button">
+            @foreach (var service in Model.RecommendedServices)
+            {
+                <div class="card recommended-item swiper-slide">
+                    <a href="@Url.Action("Details", "Service", new { encodedName = service.EncodedName })" class="text-decoration-none text-dark">
+                        <img src="@service.ImageUrl" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="service-info">
+                                <h6 class="">@service.Name</h6>
+                                <small>@service.Street, @service.PostalCode, @service.City</small>
+                            </div>
+                            <div class="service-footer">
+                                <span class="badge bg-secondary">@service.AverageRating.ToString("F1") <i class="fa fa-star"></i></span>
+                                <span class="text-muted">@service.OpinionsCount opinii</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            }
+        </div>
+        <div class="fa-solid fa-arrow-right swiper-button-next1 category-right-arrow"></div>
+    </div>
+
+    <div class="captions">
+        <div class="caption">
+            <div class="caption-text">
+                <h3>Umów się online</h3>
+                <p class="mt-4">Chcesz umówić się do fryzjera, barbera, stylistki paznokci lub salonu masażu w okolicy? Szukasz miejsca, w którym najlepsi specjaliści zadbają o Twoją brodę, brwi lub zrobią relaksujący masaż?</p>
+                <p class="my-3">BookMe to darmowa aplikacja do rezerwacji, dzięki której z łatwością znajdziesz wolny termin i wygodnie umówisz się na wizytę. Bez dzwonienia — rezerwujesz o każdej porze i z dowolnego miejsca. </p>
+                <b>Odkrywaj nowe miejsca w okolicy i umawiaj się na wizyty z BookMe!</b>
+            </div>
+            <div>
+                <img class="caption-image" src="https://i.gyazo.com/573c237c06e318e405227e749a889b61.png" alt="" />
+            </div>
+        </div>
+        <div class="caption">
+            <div>
+                <img class="caption-image" src="https://i.gyazo.com/213606e43fb9cd632df41e2b24e2e116.png" alt="" />
+            </div>
+            <div class="caption-text">
+                <h3>Coś Ci wypadło? Nie szkodzi!</h3>
+                <p class="mt-4">Zaloguj się na naszej stronie i zarządzaj swoimi wizytami, gdziekolwiek jesteś. Zmień termin wizyty lub odwołaj rezerwację bez dzwonienia. </p>
+                <p class="my-3">Wiemy, że każdego dnia dużo się u Ciebie dzieje, dlatego będziemy wysyłać Ci przypomnienia o nadchodzących wizytach. Dzięki nim nigdy nie przegapisz terminu! </p>
+            </div>
+        </div>
+        <div class="caption">
+            <div class="caption-text">
+                <h3>Najlepsi specjaliści w okolicy</h3>
+                <p class="mt-4">W BookMe znajdziesz najlepsze salony z branży health & beauty w Twojej okolicy.  </p>
+                <p class="my-3">Dowiedz się o nich więcej — sprawdź ich profile w BookMe, przeczytaj opinie innych klientów i przejrzyj portfolio.</p>
+                <p class="my-3">Oszczędzaj czas i niczym się nie przejmuj! Z BookMe rezerwacja wizyt jest darmowa i dziecinnie prosta.  </p>
+            </div>
+            <div>
+                <img class="caption-image" src="https://i.gyazo.com/22a27e257b943fdfe79350f81d951c85.png" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <h5 class="mt-5">Kategorie</h5>
+    <div class="categories-wrapper">
+        <div class="fa-solid fa-arrow-left swiper-button-prev2 category-left-arrow"></div>
+        <div class="fa-solid fa-arrow-right swiper-button-next2 category-right-arrow"></div>
+        <div class="swiper2 row categories-swiper" role="button">
+            <div class="swiper-wrapper d-flex">
+                @foreach (var category in Model.ServiceCategories)
+                {
+                    <a asp-controller="ServiceCategory" asp-action="Details" asp-route-encodedName="@category.EncodedName" class="swiper-slide d-flex flex-column align-items-center mt-4 justify-content-center category-container">
+                        <img class="category-url" src="@category.ImageUrl" />
+                        <h6 class="mt-2">@category.Name</h6>
+                    </a>
+                }
+
+                <a asp-controller="ServiceCategory" asp-action="Details" asp-route-encodedName="inne" class="swiper-slide d-flex flex-column align-items-center mt-4 justify-content-center category-container">
+                    <img class="category-url" src="https://i.gyazo.com/a60c5545bc9c8f2b9599cd02949767b8.png" />
+                    <h6 class="mt-2">Inne</h6>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/InitSwiper.js" asp-append-version="true"></script>

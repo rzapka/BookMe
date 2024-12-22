@@ -1,0 +1,6 @@
+{
+  "BookMe.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotnet\\BookMe\\BookMe.Application",
+  "BookMe.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotnet\\BookMe\\BookMe.Domain",
+  "BookMe.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotnet\\BookMe\\BookMe.Infrastructure",
+  "BookMe.MVC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\dotnet\\BookMe\\BookMe"
+}

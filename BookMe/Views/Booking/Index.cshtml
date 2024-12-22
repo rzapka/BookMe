@@ -1,0 +1,124 @@
+﻿@model List<BookMe.Application.Booking.Dto.BookingDto>
+
+<div class="container mt-5">
+    <h4 class="mb-5">Moje Wizyty</h4>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active tab-dark-text" id="upcoming-tab" data-toggle="tab" href="#upcoming">Nadchodzące</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link tab-dark-text" id="completed-tab" data-toggle="tab" href="#completed">Zakończone</a>
+        </li>
+    </ul>
+    <div class="tab-content mt-3">
+        <div class="tab-pane fade show active" id="upcoming">
+            <div class="row">
+                @if (!Model.Any(b => b.StartTime >= DateTime.Now))
+                {
+                    <div class="col-12 text-center">
+                        <p>Brak rezerwacji do wyświetlenia</p>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var booking in Model.Where(b => b.StartTime >= DateTime.Now))
+                    {
+                        var bookingStatusClass = "bg-primary text-white";
+                        var bookingStatusText = "Nadchodzące";
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card" style="width: 80%; position: relative;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@booking.ServiceName</h5>
+                                    <span class="badge @bookingStatusClass">@bookingStatusText</span>
+                                    <p class="card-text text-secondary">Oferta: @booking.OfferName</p>
+                                    <p class="card-text text-secondary">Cena: @booking.OfferPrice.ToString("c")</p>
+                                    @if ((bool)ViewBag.IsEmployee)
+                                    {
+                                        <p class="card-text text-secondary">Klient: @booking.UserId</p>
+                                    }
+                                    else
+                                    {
+                                        <p class="card-text text-secondary">Pracownik: @booking.EmployeeFullName</p>
+                                    }
+                                    <p class="card-text text-secondary">Data: @booking.StartTime.ToString("dd/MM/yyyy HH:mm")</p>
+                                    <p class="card-text text-secondary">Czas trwania: @booking.OfferDuration minut</p>
+                                    @if (!(bool)ViewBag.IsEmployee)
+                                    {
+                                        <div class="mt-3">
+                                            <a href="@Url.Action("Edit", "Booking", new { id = booking.Id })" class="btn btn-outline-dark">Edytuj</a>
+                                            <form asp-action="Delete" asp-controller="Booking" asp-route-id="@booking.Id" asp-route-employeeId="@booking.EmployeeId" method="post" class="d-inline" onsubmit="return confirm('Czy na pewno chcesz usunąć tę rezerwację?');">
+                                                <button type="submit" class="btn btn-outline-danger">Usuń</button>
+                                            </form>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+        <div class="tab-pane fade" id="completed">
+            <div class="row">
+                @if (!Model.Any(b => b.StartTime < DateTime.Now))
+                {
+                    <div class="col-12 text-center">
+                        <p>Brak rezerwacji do wyświetlenia</p>
+                    </div>
+                }
+                else
+                {
+                    @foreach (var booking in Model.Where(b => b.StartTime < DateTime.Now))
+                    {
+                        var bookingStatusClass = "bg-danger text-white";
+                        var bookingStatusText = "Zakończone";
+
+                        <div class="col-md-6 mt-5">
+                            <div class="card" style="width: 80%; position: relative;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@booking.ServiceName</h5>
+                                    <span class="badge @bookingStatusClass">@bookingStatusText</span>
+                                    <p class="card-text text-secondary">Oferta: @booking.OfferName</p>
+                                    <p class="card-text text-secondary">Cena: @booking.OfferPrice.ToString("c")</p>
+                                    @if ((bool)ViewBag.IsEmployee)
+                                    {
+                                        <p class="card-text text-secondary">Klient: @booking.UserId</p>
+                                    }
+                                    else
+                                    {
+                                        <p class="card-text text-secondary">Pracownik: @booking.EmployeeFullName</p>
+                                    }
+                                    <p class="card-text text-secondary">Data: @booking.StartTime.ToString("dd/MM/yyyy HH:mm")</p>
+                                    <p class="card-text text-secondary">Czas trwania: @booking.OfferDuration minut</p>
+                                    @if (!(bool)ViewBag.IsEmployee)
+                                    {
+                                        <div class="mt-3">
+                                            @if (booking.OpinionId != null)
+                                            {
+                                                <a href="@Url.Action("Edit", "Opinion", new { id = booking.OpinionId })" class="btn btn-outline-dark">Edytuj opinię</a>
+                                                <form asp-action="DeleteOpinion" asp-controller="Opinion" asp-route-id="@booking.OpinionId" asp-route-employeeId="@booking.EmployeeId" method="post" class="d-inline" onsubmit="return confirm('Czy na pewno chcesz usunąć opinię?');">
+                                                    <button type="submit" class="btn btn-outline-danger">Usuń opinię</button>
+                                                </form>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Url.Action("Create", "Opinion", new { bookingId = booking.Id })" class="btn btn-outline-success">Dodaj opinię</a>
+                                            }
+                                        </div>
+                                    }
+                                    @if (booking.OpinionId != null)
+                                    {
+                                        <p class="card-text mt-3 text-secondary">Ocena: @booking.OpinionRating</p>
+                                        <p class="card-text text-secondary">Treść: @booking.OpinionContent</p>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

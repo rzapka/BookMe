@@ -1,0 +1,17 @@
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Application.deps.json
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Application.dll
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Application.pdb
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Domain.dll
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Infrastructure.dll
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Domain.pdb
+D:\dotnet\BookMe\BookMe.Application\bin\Debug\net8.0\BookMe.Infrastructure.pdb
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.csproj.AssemblyReference.cache
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.AssemblyInfoInputs.cache
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.AssemblyInfo.cs
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.csproj.CoreCompileInputs.cache
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.A.5A0FF917.Up2Date
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.dll
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\refint\BookMe.Application.dll
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\BookMe.Application.pdb
+D:\dotnet\BookMe\BookMe.Application\obj\Debug\net8.0\ref\BookMe.Application.dll

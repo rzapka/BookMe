@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\BookMe.MVC.Tests.props" />
+</Project>

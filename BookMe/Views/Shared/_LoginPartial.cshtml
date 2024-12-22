@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using BookMe.Domain.Entities
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav align-items-center">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li class="nav-item d-flex align-items-center">
+            @{
+                var user = await UserManager.GetUserAsync(User);
+                var firstName = user?.FirstName;
+                var lastName = user?.LastName;
+                var avatarUrl = string.IsNullOrEmpty(user?.AvatarUrl) ? "https://sbcf.fr/wp-content/uploads/2018/03/sbcf-default-avatar.png" : user.AvatarUrl;
+            }
+            <a class="nav-link text-white d-flex align-items-center" asp-controller="ApplicationUser" asp-action="EditMyAccount" title="Edit Account">
+                <img src="@avatarUrl" alt="Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px; object-fit: cover;" />
+                Cześć, @firstName @lastName
+            </a>
+        </li>
+        <li class="nav-item">
+            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="nav-link btn btn-sm btn-danger">Wyloguj się</button>
+            </form>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item font-weight-bolder">
+            <a class="nav-link text-white" asp-controller="ApplicationUser" asp-action="Register">Rejestracja</a>
+        </li>
+        <span class="text-white mx-2">|</span>
+        <li class="nav-item">
+            <a class="nav-link text-white" asp-controller="ApplicationUser" asp-action="Login">Zaloguj się</a>
+        </li>
+    }
+</ul>

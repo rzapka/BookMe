@@ -1,0 +1,680 @@
+﻿html {
+    font-size: 14px;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    max-width: 100vw !important;
+}
+
+.pagination > li > a {
+    background-color: white;
+    color: #666;
+}
+
+    .pagination > li > a:focus,
+    .pagination > li > a:hover,
+    .pagination > li > span:focus,
+    .pagination > li > span:hover {
+        color: #666;
+        background-color: #eee;
+        border-color: #ddd;
+    }
+
+.pagination > .active > a {
+    color: white;
+    background-color: #666 !important;
+    border: solid 1px #666;
+}
+
+.page-item.active .page-link {
+    border-color: transparent;
+}
+
+.pagination > .active > a:hover {
+    background-color: #666;
+    border: solid 1px #666;
+}
+
+.btn.btn-outline-secondary.active:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.navbar-title {
+    font-family: 'Lakki Reddy', serif;
+    padding-top: 17px;
+    color: white;
+}
+
+.header-input, .header-input:focus {
+    background-color: black;
+    color: #eee;
+}
+
+.category-url {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.categories-wrapper {
+    overflow: hidden;
+    background-color: #eee;
+    height: 25vh;
+    padding: 1%;
+}
+
+.categories-swiper {
+    min-width: 150vw;
+    height: 80%
+}
+
+.category-container {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+    .category-container:hover {
+        text-decoration: none;
+    }
+
+    .category-container h6 {
+        color: black;
+    }
+
+    .category-container:hover h6 {
+        color: black;
+    }
+
+.category-right-arrow {
+    float: right;
+}
+
+.category-left-arrow, .category-right-arrow {
+    font-size: 25px;
+}
+
+.recommended-items {
+    min-width: 150vw;
+    display: flex;
+}
+
+.recommended-item {
+    margin-right: 1.5%;
+    display: inline-block;
+    max-width: 11%;
+}
+
+.swiper-button-prev1, .swiper-button-next1 {
+    position: absolute;
+    text-align: center;
+    padding-top: 0.7%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #eee;
+    top: 16%
+}
+
+.swiper-button-prev1 {
+    left: 12%;
+}
+
+.swiper-button-next1 {
+    left: 86%;
+}
+
+.caption-image {
+    height: 40vh;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .caption > div {
+        width: 40%;
+    }
+
+.caption {
+    margin-top: 6%;
+}
+
+.nav-link {
+    color: #eee !important;
+}
+
+.service-main-image {
+    width: 35%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.opinions-button {
+    width: 10%;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid white;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.log-in-section {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-user {
+    margin-right: 0.5%;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    width: 50%; /* Szerokość kontenera */
+    align-items: center; /* Wyrównanie przycisku i inputa wertykalnie */
+}
+
+.filter-services-input {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    padding-left: 40px; /* Odstęp tekstu od przycisku */
+}
+
+.icon-button {
+    position: absolute;
+    left: 0; /* Przycisk po lewej stronie */
+    border: none;
+    background: none;
+    color: #333;
+    cursor: pointer;
+    padding: 0 12px; /* Padding dla przycisku, aby był szerszy */
+}
+
+.card-rating {
+    position: absolute;
+    right: 0; /* Kwadracik przylega do prawej krawędzi */
+    top: 0; /* Kwadracik przylega do górnej krawędzi */
+    width: 80px; /* Szerokość kwadratu */
+    height: 50px; /* Wysokość kwadratu */
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    padding: 4px; /* Padding wewnątrz kwadratu */
+    box-sizing: border-box; /* Uwzględnienie paddingu w wymiarach */
+}
+
+    .card-rating div {
+        line-height: 1.4; /* Ustalenie wysokości linii tekstu dla większej czytelności */
+        font-size: 14px; /* Wielkość fontu dla średniej oceny */
+        font-weight: bold; /* Pogrubienie fontu */
+    }
+
+    .card-rating span {
+        display: block;
+        font-size: 12px; /* Wielkość fontu dla liczby opinii */
+        font-weight: normal; /* Normalna grubość fontu */
+    }
+
+.card-rating-extended {
+    width: 90px; /* Szerokość kwadratu */
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+#datetimepicker {
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.e-custom-datetimepicker {
+    width: 100%;
+}
+
+.suggestions {
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+    color: white;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+    .suggestion-item:hover {
+        background-color: #444;
+    }
+
+.search-button {
+    height: calc(1.5em + 0.75rem + 2px); /* Dopasowanie wysokości do inputów */
+    margin-left: 5px; /* Mały odstęp od inputów */
+    padding: 0.375rem 0.75rem; /* Dopasowanie paddingu */
+    font-size: 1rem; /* Dopasowanie wielkości czcionki */
+    line-height: 1.5; /* Utrzymanie proporcji linii */
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+    line-height: 1%;
+}
+
+.tab-dark-text {
+    color: #343a40 !important; /* Darker color for the tab text */
+}
+
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a40;
+}
+
+.service-details {
+    position: relative;
+    text-align: center;
+}
+
+
+.rating {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.opinions-count {
+    font-size: 1rem;
+    color: #eee;
+}
+
+.service-image {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.service-name {
+    font-size: 2rem;
+}
+
+.service-address {
+    font-size: 1rem;
+    color: gray;
+}
+
+.services h4, .reviews h4 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+}
+
+.service-form {
+    border: 1px solid #e9ecef;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.offer-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.offer-details {
+    text-align: right;
+}
+
+.offer-price {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+.employee-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.employee p {
+    margin-top: 0.5rem;
+}
+
+.opinions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.opinion-card {
+    width: 45%;
+    margin: 1rem;
+}
+/* Stylowanie ikonki "x" do czyszczenia inputa */
+.clear-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #ccc;
+    display: none; /* Ukryj ikonę na początku */
+}
+
+.header-input:focus + .clear-icon,
+.header-input:not(:placeholder-shown) + .clear-icon {
+    display: block; /* Pokaż ikonę, gdy input ma focus lub nie jest pusty */
+}
+
+/* Stylizacja dla sugestii */
+.suggestions {
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+    color: white;
+    display: none; /* Ukryj sugestie na początku */
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+    .suggestion-item:hover {
+        background-color: #444;
+    }
+
+#serviceSearch,
+#citySearch {
+    width: 100%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header-input:blur + .clear-icon + .suggestions {
+    display: none;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.recommended-item .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px; /* Dopasuj wysokość w zależności od potrzeb */
+}
+
+.recommended-item .service-info {
+    flex: 1;
+}
+
+.recommended-item .service-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Dostosuj, aby uzyskać odpowiedni odstęp */
+}
+
+.list-group-item-primary {
+    background-color: #d1ecf1;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.btn-link {
+    color: #17a2b8;
+}
+
+    .btn-link:hover {
+        color: #138496;
+        text-decoration: underline;
+    }
+
+.notification-badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+.equal-width-columns th, .equal-width-columns td {
+    width: auto;
+    text-align: center;
+}
+
+.equal-width-columns th {
+    width: 16.66%;
+}
+
+.bg-secondary {
+    background-color: #4d4d4d !important;
+}
+
+.bg-dark {
+    background-color: #2e2e2e !important;
+}
+
+.text-danger {
+    color: crimson;
+}
+
+.button-spacing {
+    margin-right: 10px; /* Ustal margines, np. 10px */
+}
+
+.admin-hover-effect:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+.admin-card {
+    height: 100%;
+}
+
+.admin-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .admin-card-body .btn {
+        margin-top: auto;
+    }
+
+.admin-card-title {
+    min-height: 50px;
+    text-align: center;
+}
+
+.admin-icon {
+    font-size: 3rem; /* Stały rozmiar ikon */
+    height: 60px; /* Stała wysokość kontenera ikony */
+    margin-bottom: 15px;
+}
+
+.min-height-panel {
+    min-height: 70vh;
+}
+
+.flatpickr-input {
+    background-color: #fff !important;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+
+.input-group-text {
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-left: 0;
+    cursor: pointer;
+}
+
+.input-group .form-control {
+    border-right: 0;
+}
+
+.input-group .input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+}
+
+.swiper-container {
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+/* Stylizacja kontenera Swiper w Details.cshtml */
+.details-swiper-container {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+    .details-swiper-container::before {
+        content: '';
+        display: block;
+        padding-top: 10%;
+    }
+
+    .details-swiper-container .swiper-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .details-swiper-container .swiper-slide {
+        width: 100%;
+        height: 100%;
+    }
+
+    .details-swiper-container .service-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .details-swiper-container .swiper-pagination {
+        top: 90% !important;
+    }
+
+/* Stylizacja przycisków nawigacji dla Swipera w Details.cshtml */
+.details-swiper-button-next,
+.details-swiper-button-prev {
+    color: #000;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27px;
+    height: 44px;
+    z-index: 10;
+}
+
+.details-swiper-button-next {
+    right: 10px;
+}
+
+.details-swiper-button-prev {
+    left: 10px;
+}
+
+/* Opcjonalnie, jeśli chcesz zmienić wygląd aktywnej paginacji */
+.details-swiper-container .swiper-pagination-bullet-active {
+    background: #007bff;
+}
+
+/* Zapobieganie nachodzeniu elementów */
+.service-details {
+    position: relative;
+}
+
+.card-rating {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Marginesy dla nazwy i adresu usługi */
+.service-name, .service-address {
+    margin-top: 10px;
+}

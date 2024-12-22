@@ -1,0 +1,39 @@
+﻿@model SearchResultsViewModel
+
+<div class="container mt-5">
+    
+    <div class="row mt-5">
+        @foreach(var service in Model.Services)
+        {
+            <div class="col-md-6 mt-5">
+                <div class="card" style="width: 80%; position: relative;">
+                    <div class="card-rating">
+                        <div>@service.AverageRating.ToString("F1")</div>
+                        <span>@service.OpinionsCount opinii</span>
+                    </div>
+                    <img src="@service.ImageUrl" class="card-img-top" alt="service">
+                    <div class="card-body">
+                        <h5 class="card-title">@service.Name</h5>
+                        <p class="card-text text-secondary">@service.ContactDetails.Street, @service.ContactDetails.PostalCode, @service.ContactDetails.City</p>
+                        <p class="card-text text-secondary">tel. @service.ContactDetails.PhoneNumber</p>
+                        <a asp-controller="Service" asp-action="Details" asp-route-encodedName="@service.EncodedName" class="btn btn-outline-secondary">
+                            Więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<script>
+    const fallbackImageUrl = "https://fastly.picsum.photos/id/40/640/480.jpg?hmac=g_iGJ4JwMON_SqGk0lEb_9nIhJG1-H783dsL3S5QQw2g"; // URL for fallback image
+
+    const elements = document.querySelectorAll('.card-img-top')
+    elements.forEach(element => loadImageWithFallback(element))
+
+    function loadImageWithFallback(element) {
+        element.onerror = function () {
+            element.src = fallbackImageUrl;
+        };
+    }
+</script>

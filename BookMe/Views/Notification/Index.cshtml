@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BookMe.Application.Notification.Dto.NotificationDto>
+
+<div class="container mt-5">
+    <h3 class="mb-5">Powiadomienia</h3>
+    @if (Model == null || !Model.Any())
+    {
+        <p>Brak powiadomień</p>
+    }
+    else
+    {
+        <ul class="list-group">
+            @foreach (var notification in Model)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center @(notification.IsRead ? "" : "font-weight-bold")">
+                    <div>
+                        <span class="badge bg-info text-dark">@notification.CreatedAt.ToString("dd/MM/yyyy HH:mm")</span>
+                        <span>@notification.Message</span>
+                    </div>
+                    @if (!notification.IsRead)
+                    {
+                        <form method="post" asp-action="MarkAsRead" asp-route-id="@notification.Id" class="d-inline">
+                            <button type="submit" class="btn btn-link text-decoration-none">
+                                <i class="fa fa-check"></i> Oznacz jako przeczytane
+                            </button>
+                        </form>
+                    }
+                </li>
+            }
+        </ul>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $(".list-group-item").hover(
+                function() {
+                    $(this).addClass("list-group-item-primary");
+                }, function() {
+                    $(this).removeClass("list-group-item-primary");
+                }
+            );
+        });
+    </script>
+}

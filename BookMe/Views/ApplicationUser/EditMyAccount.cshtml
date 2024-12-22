@@ -1,0 +1,87 @@
+﻿@model BookMe.Application.ApplicationUser.Commands.UpdateApplicationUser.UpdateApplicationUserCommand
+
+@{
+    ViewData["Title"] = "Edytuj Moje Konto";
+}
+
+<div class="container mt-5 bg-secondary text-white p-4 rounded">
+    <h3 class="mb-4">Edytuj Moje Konto</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Formularz edycji konta -->
+            <form asp-action="EditMyAccount" method="post" id="editForm">
+                <input type="hidden" asp-for="Id" />
+
+                <div class="form-group mt-4">
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <div class="text-danger font-weight-bold">@error.ErrorMessage</div>
+                    }
+                </div>
+
+                <!-- Pole imienia -->
+                <div class="form-group">
+                    <label asp-for="FirstName" class="control-label">Imię</label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <!-- Pole nazwiska -->
+                <div class="form-group">
+                    <label asp-for="LastName" class="control-label">Nazwisko</label>
+                    <input asp-for="LastName" class="form-control" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+
+                <!-- Pole emaila -->
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label">Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <!-- Pole płci -->
+                <div class="form-group">
+                    <label asp-for="Gender" class="control-label">Płeć</label>
+                    <select asp-for="Gender" class="form-control">
+                        <option value="0">Mężczyzna</option>
+                        <option value="1">Kobieta</option>
+                    </select>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+
+                <!-- Pole URL avatara -->
+                <div class="form-group">
+                    <label asp-for="AvatarUrl" class="control-label">Avatar URL</label>
+                    <input asp-for="AvatarUrl" class="form-control" />
+                    <span asp-validation-for="AvatarUrl" class="text-danger"></span>
+                </div>
+
+                <!-- Pole nowego hasła -->
+                <div class="form-group">
+                    <label asp-for="NewPassword" class="control-label">Nowe Hasło</label>
+                    <input asp-for="NewPassword" class="form-control" type="password" />
+                    <span asp-validation-for="NewPassword" class="text-danger"></span>
+                </div>
+            </form>
+
+            <!-- Kontener flexbox na przyciski -->
+            <div class="d-flex mt-4">
+                <!-- Przycisk zapisu powiązany z formularzem edycji konta -->
+                <button form="editForm" type="submit" class="btn btn-dark button-spacing">Zapisz</button>
+
+                <!-- Formularz usuwania konta jako element inline -->
+                <form asp-action="DeleteMyAccount" method="post" onsubmit="return confirm('Czy na pewno chcesz usunąć swoje konto?');" class="d-inline">
+                    <button type="submit" class="btn btn-danger">Usuń moje konto</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

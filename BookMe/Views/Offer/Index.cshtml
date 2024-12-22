@@ -1,0 +1,38 @@
+﻿@model IEnumerable<BookMe.Application.Offer.Dto.OfferDto>
+
+@{
+    ViewData["Title"] = "Zarządzanie Ofertami";
+}
+
+<div class="container mt-5 bg-secondary text-white p-4 rounded">
+    <h1 class="mb-4">Zarządzanie Ofertami dla Serwisu: @ViewBag.ServiceName</h1>
+    <p>
+        <a asp-action="Create" asp-route-serviceEncodedName="@ViewBag.ServiceEncodedName" class="btn btn-dark">Dodaj Nową Ofertę</a>
+    </p>
+    <table class="table table-striped table-dark equal-width-columns text-center">
+        <thead>
+            <tr>
+                <th>Nazwa Oferty</th>
+                <th>Czas Trwania (minuty)</th>
+                <th>Cena</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="align-middle">@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td class="align-middle">@Html.DisplayFor(modelItem => item.Duration)</td>
+                    <td class="align-middle">@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td class="align-middle">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-light">Edytuj</a>
+                        <form asp-action="Delete" asp-route-id="@item.Id" asp-route-encodedName="@item.ServiceEncodedName" method="post" class="d-inline" onsubmit="return confirm('Czy na pewno chcesz usunąć tę ofertę?');">
+                            <button type="submit" class="btn btn-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

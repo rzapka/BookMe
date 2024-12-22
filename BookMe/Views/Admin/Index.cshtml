@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Panel Administracyjny";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">Panel Administracyjny</h2>
+    <p class="mb-4 text-center">Witaj w panelu administracyjnym. Wybierz jedną z poniższych opcji, aby zarządzać danymi:</p>
+
+    <div class="row mt-5">
+        <!-- Zarządzaj Serwisami -->
+        <div class="col-md-6 col-lg-3 d-flex">
+            <div class="card admin-card mb-4 text-center shadow-sm border-0 admin-hover-effect w-100">
+                <div class="card-body admin-card-body">
+                    <div class="admin-icon text-primary">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h5 class="admin-card-title">Zarządzaj Serwisami</h5>
+                    <a href="@Url.Action("Index", "Service")" class="btn btn-outline-primary mt-2">Przejdź</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zarządzaj Kategoriami -->
+        <div class="col-md-6 col-lg-3 d-flex">
+            <div class="card admin-card mb-4 text-center shadow-sm border-0 admin-hover-effect w-100">
+                <div class="card-body admin-card-body">
+                    <div class="admin-icon text-success">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <h5 class="admin-card-title">Zarządzaj Kategoriami</h5>
+                    <a href="@Url.Action("Index", "ServiceCategory")" class="btn btn-outline-success mt-2">Przejdź</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zarządzaj Pracownikami -->
+        <div class="col-md-6 col-lg-3 d-flex">
+            <div class="card admin-card mb-4 text-center shadow-sm border-0 admin-hover-effect w-100">
+                <div class="card-body admin-card-body">
+                    <div class="admin-icon text-warning">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h5 class="admin-card-title">Zarządzaj Pracownikami</h5>
+                    <a href="@Url.Action("AdminIndex", "Employee")" class="btn btn-outline-warning mt-2">Przejdź</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zarządzaj Użytkownikami -->
+        <div class="col-md-6 col-lg-3 d-flex">
+            <div class="card admin-card mb-4 text-center shadow-sm border-0 admin-hover-effect w-100">
+                <div class="card-body admin-card-body">
+                    <div class="admin-icon text-danger">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h5 class="admin-card-title">Zarządzaj Użytkownikami</h5>
+                    <a href="@Url.Action("Index", "ApplicationUser")" class="btn btn-outline-danger mt-2">Przejdź</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

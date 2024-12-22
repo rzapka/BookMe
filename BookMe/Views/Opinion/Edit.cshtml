@@ -1,0 +1,54 @@
+﻿@using BookMe.Application.Opinion.Commands.UpdateOpinion
+@model UpdateOpinionCommand
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Edytuj opinię</h3>
+                    <div class="mb-4">
+                        <p><strong>Serwis:</strong> @Model.ServiceName</p>
+                        <p><strong>Oferta:</strong> @Model.OfferName</p>
+                        <p><strong>Pracownik:</strong> @Model.EmployeeFullName</p>
+                        <p><strong>Cena:</strong> @Model.OfferPrice.ToString("c")</p>
+                        <p><strong>Data rozpoczęcia:</strong> @Model.BookingStartTime</p>
+                        <p><strong>Czas trwania:</strong> @Model.OfferDuration minut</p>
+                    </div>
+                    <form method="post" asp-action="EditPost">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="ServiceId" />
+                        <input type="hidden" asp-for="OfferId" />
+                        <input type="hidden" asp-for="EmployeeId" />
+                        <input type="hidden" asp-for="UserId" />
+                        <input type="hidden" asp-for="BookingId" />
+                        <input type="hidden" asp-for="ServiceEncodedName" />
+
+                        <div class="form-group">
+                            <label asp-for="Rating" class="control-label">Ocena</label>
+                            <input asp-for="Rating" class="form-control" min="1" max="5" type="number" />
+                            <span asp-validation-for="Rating" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Content" class="control-label">Opinia</label>
+                            <textarea asp-for="Content" class="form-control"></textarea>
+                            <span asp-validation-for="Content" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center mt-3">
+                            <input type="submit" value="Zapisz" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

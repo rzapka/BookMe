@@ -1,0 +1,73 @@
+﻿@model BookMe.Application.Booking.Commands.UpdateBooking.UpdateBookingCommand;
+
+<div class="container d-flex justify-content-center align-items-center mt-3">
+    <div class="col-md-6">
+        <div class="card shadow-lg">
+            <div class="card-body p-5">
+                <h3 class="mb-4 text-center text-primary">Edytuj wizytę</h3>
+                <div class="text-center mb-4">
+                    <h5 class="text-secondary">Serwis: <span class="text-dark">@Model.ServiceName</span></h5>
+                    <h6 class="text-secondary">Oferta: <span class="text-dark">@Model.OfferName</span></h6>
+                    <h6 class="text-secondary">Cena: <span class="text-dark">@Model.OfferPrice.ToString("c")</span></h6>
+                    <h6 class="text-secondary">Czas trwania: <span class="text-dark">@Model.OfferDuration minut</span></h6>
+                </div>
+                <form method="post" asp-action="Edit" asp-route-id="@Model.Id" asp-route-serviceEncodedName="@Model.ServiceEncodedName">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+                    <input type="hidden" asp-for="OfferId" />
+                    <input type="hidden" asp-for="UserId" />
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="ServiceName" />
+                    <input type="hidden" asp-for="OfferName" />
+                    <input type="hidden" asp-for="OfferPrice" />
+                    <input type="hidden" asp-for="OfferDuration" />
+                    <input type="hidden" asp-for="OfferEncodedName" />
+
+                    <div class="form-group mb-4">
+                        <label class="control-label font-weight-bold" asp-for="StartTime">Wybierz Datę</label>
+                        <div class="input-group">
+                            <input type="text" asp-for="StartTime" id="datetimepicker" name="StartTime" class="form-control flatpickr-input" value="@Model.StartTime.ToString("dd/MM/yyyy HH:mm")" />
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="calendar-button">
+                                    <i class="fa fa-calendar"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <span asp-validation-for="StartTime" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label class="control-label font-weight-bold mb-1" asp-for="EmployeeId">Wybierz Pracownika:</label>
+                        <select id="employeeSelect" name="EmployeeId" class="form-control" asp-for="EmployeeId">
+                            @if (ViewBag.Employees != null)
+                            {
+                                foreach (var employee in ViewBag.Employees)
+                                {
+                                    <option value="@employee.Key">@employee.Value</option>
+                                }
+                            }
+                            else
+                            {
+                                <option value="">No employees available</option>
+                            }
+                        </select>
+                        <span asp-validation-for="EmployeeId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Zapisz zmiany" class="btn btn-primary btn-lg px-5">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        var startTimeValue = '@Model.StartTime.ToString("yyyy-MM-ddTHH:mm")';
+    </script>
+    <script src="~/js/flatpickr.js" asp-append-version="true"></script>
+}
+
+

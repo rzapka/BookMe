@@ -1,0 +1,59 @@
+﻿@model BookMe.Application.OpeningHours.Commands.CreateOpeningHour.CreateOpeningHourCommand
+
+@{
+    ViewData["Title"] = "Dodaj Nową Godzinę Otwarcia";
+    var availableDays = ViewBag.DaysOfWeek as List<string>;
+}
+
+<div class="container mt-5 p-4 bg-light text-dark rounded" style="max-width: 700px;">
+    <h3 class="mb-4 text-dark">Dodaj Nową Godzinę Otwarcia</h3>
+
+    <form asp-action="Create" asp-route-encodedName="@ViewBag.EncodedName" method="post">
+        <input type="hidden" asp-for="ServiceId" value="@ViewBag.ServiceId" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="form-group mb-4">
+            <label asp-for="DayOfWeek" class="control-label text-dark">Dzień Tygodnia</label>
+            <select asp-for="DayOfWeek" class="form-control bg-white text-dark">
+                @foreach (var day in ViewBag.DaysOfWeek)
+                {
+                    <option value="@day">@day</option>
+                }
+            </select>
+            <span asp-validation-for="DayOfWeek" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-check mb-4">
+            <input type="checkbox" asp-for="Closed" class="form-check-input" />
+            <label asp-for="Closed" class="form-check-label text-dark">Zamknięte w tym dniu</label>
+            <span asp-validation-for="Closed" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="OpeningTime" class="control-label text-dark">Godzina Otwarcia</label>
+            <input id="openingTime" type="text" asp-for="OpeningTime" class="form-control bg-white text-dark" />
+            <span asp-validation-for="OpeningTime" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="ClosingTime" class="control-label text-dark">Godzina Zamknięcia</label>
+            <input id="closingTime" type="text" asp-for="ClosingTime" class="form-control bg-white text-dark" />
+            <span asp-validation-for="ClosingTime" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mt-4">
+            <button type="submit" class="btn btn-dark btn-block">Zapisz</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script src="~/js/openingHours.js" asp-append-version="true"></script>
+    }
+}

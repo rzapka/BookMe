@@ -1,0 +1,65 @@
+﻿@model BookMe.Application.ServiceCategory.Dto.ServiceCategoryDto
+
+<div class="container mt-5">
+    <h4 class="mb-5">Wyniki dla kategorii @Model.Name</h4>
+    <p class="d-inline-flex gap-1">
+        <a class="btn btn-secondary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Filtry
+        </a>
+    </p>
+    <div class="collapse @(!string.IsNullOrWhiteSpace(@ViewBag.SearchTerm) ? "show" : "")" id="collapseExample">
+        <form class="d-flex">
+            <div class="search-container">
+                <input class="form-control filter-services-input" name="searchTerm" placeholder="Szukaj usług lub biznesów" value="@ViewBag.SearchTerm" />
+                <button class="icon-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row mt-5">
+        @if (Model.Services.Any())
+        {
+            @foreach (var service in Model.Services)
+            {
+                <div class="col-md-6 mt-5">
+                    <div class="card" style="width: 80%; position: relative;">
+                        <div class="card-rating">
+                            <div>@service.AverageRating.ToString("F1")</div>
+                            <span>@service.OpinionsCount opinii</span>
+                        </div>
+                        <img src="@service.ImageUrl" class="card-img-top" alt="service">
+                        <div class="card-body">
+                            <h5 class="card-title">@service.Name</h5>
+                            <p class="card-text text-secondary">@service.Street, @service.PostalCode, @service.City</p>
+                            <p class="card-text text-secondary">tel. @service.PhoneNumber</p>
+                            <a asp-controller="Service" asp-action="Details" asp-route-encodedName="@service.EncodedName" class="btn btn-outline-secondary">
+                                Więcej
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <p class="text-center text-muted">Nie znaleziono żadnych serwisów dla tej kategorii.</p>
+            </div>
+        }
+    </div>
+</div>
+
+<script>
+    const fallbackImageUrl = "https://fastly.picsum.photos/id/40/640/480.jpg?hmac=g_iGJ4xMON_SqGk0lEb_9nIhJG1-H783dsL3S5QQw2g"; // URL for fallback image
+
+    const elements = document.querySelectorAll('.card-img-top')
+    elements.forEach(element => loadImageWithFallback(element))
+
+    function loadImageWithFallback(element) {
+        element.onerror = function () {
+            element.src = fallbackImageUrl;
+        };
+    }
+</script>

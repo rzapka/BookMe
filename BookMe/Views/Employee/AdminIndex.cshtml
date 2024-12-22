@@ -1,0 +1,57 @@
+﻿@model IEnumerable<BookMe.Application.Employee.Dto.EmployeeDto>
+
+@{
+    ViewData["Title"] = "Zarządzanie Pracownikami";
+}
+
+<div class="container mt-5 bg-secondary text-white p-4 rounded">
+    <h1 class="mb-4">Zarządzanie Pracownikami</h1>
+    <a asp-action="CreateWithoutService" class="btn btn-dark mb-3">Dodaj Nowego Pracownika</a>
+    <form method="get" class="mb-4">
+        <div class="input-group">
+            <input type="text" name="searchTerm" class="form-control" placeholder="Wyszukaj po imieniu lub nazwisku" value="@ViewBag.SearchTerm">
+            <div class="input-group-append">
+                <button class="btn btn-dark" type="submit">Szukaj</button>
+            </div>
+        </div>
+    </form>
+    <table class="table table-striped table-dark equal-width-columns text-center">
+        <thead>
+            <tr>
+                <th>Avatar</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Email</th>
+                <th>Serwis</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="align-middle">
+                        @if (!string.IsNullOrEmpty(item.AvatarUrl))
+                        {
+                            <img src="@item.AvatarUrl" alt="Avatar" style="width: 50px; height: 50px; border-radius: 50%;" />
+                        }
+                        else
+                        {
+                            <span>Brak</span>
+                        }
+                    </td>
+                    <td class="align-middle">@item.FirstName</td>
+                    <td class="align-middle">@item.LastName</td>
+                    <td class="align-middle">@item.Email</td>
+                    <td class="align-middle">@item.ServiceName</td>
+                    <td class="align-middle">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-light">Edytuj</a>
+                        <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline" onsubmit="return confirm('Czy na pewno chcesz usunąć tego pracownika?');">
+                            <button type="submit" class="btn btn-danger">Usuń</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

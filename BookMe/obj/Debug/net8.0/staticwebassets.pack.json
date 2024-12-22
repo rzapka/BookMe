@@ -1,0 +1,2057 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookMe.MVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookMe.MVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\InitSwiper.js",
+      "PackagePath": "staticwebassets\\js\\InitSwiper.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\bookingEdit.js",
+      "PackagePath": "staticwebassets\\js\\bookingEdit.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\js\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\openingHours.js",
+      "PackagePath": "staticwebassets\\js\\openingHours.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\opinions.js",
+      "PackagePath": "staticwebassets\\js\\opinions.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\searchServices.js",
+      "PackagePath": "staticwebassets\\js\\searchServices.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\serviceDetails.js",
+      "PackagePath": "staticwebassets\\js\\serviceDetails.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\propeller.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\propeller.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\propeller.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\propeller.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\propeller.min.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\propeller.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\css\\propeller.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\css\\propeller.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Black-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BlackItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Bold-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Italic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Light-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Medium-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-MediumItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-Thin-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\Roboto-ThinItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Bold-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Italic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Light-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\fonts\\roboto\\RobotoCondensed-Regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\Propeller_FB_Covers.jpg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\Propeller_FB_Covers.jpg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\Twitter_Open_Graph.jpg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\Twitter_Open_Graph.jpg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\avatar-icon-40x40.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\avatar-icon-40x40.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\banner-propeller-logo.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\banner-propeller-logo.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\profile-pic.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\profile-pic.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\images\\propeller-logo.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\images\\propeller-logo.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\jquery-1.12.2.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\jquery-1.12.2.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\propeller.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\propeller.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\propeller.js.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\propeller.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\assets\\js\\propeller.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\assets\\js\\propeller.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\accordion\\accordion.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\accordion\\accordion.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\accordion\\css\\accordion.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\accordion\\css\\accordion.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\accordion\\css\\accordion.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\accordion\\css\\accordion.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\accordion\\css\\accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\accordion\\css\\accordion.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\accordion\\js\\accordion.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\accordion\\js\\accordion.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\alert\\alerts.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\alert\\alerts.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\alert\\css\\alert.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\alert\\css\\alert.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\alert\\css\\alert.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\alert\\css\\alert.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\alert\\css\\alert.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\alert\\css\\alert.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\alert\\js\\alert.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\alert\\js\\alert.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\badge\\badge.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\badge\\badge.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\badge\\css\\badge.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\badge\\css\\badge.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\badge\\css\\badge.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\badge\\css\\badge.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\badge\\css\\badge.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\badge\\css\\badge.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\button\\button.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\button\\button.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\button\\css\\button.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\button\\css\\button.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\button\\css\\button.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\button\\css\\button.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\button\\css\\button.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\button\\css\\button.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\button\\js\\ripple-effect.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\button\\js\\ripple-effect.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\card\\card.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\card\\card.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\card\\css\\card.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\card\\css\\card.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\card\\css\\card.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\card\\css\\card.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\card\\css\\card.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\card\\css\\card.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\card\\js\\jquery.masonry.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\card\\js\\jquery.masonry.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\checkbox\\checkbox.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\checkbox\\checkbox.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\checkbox\\css\\checkbox.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\checkbox\\css\\checkbox.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\checkbox\\css\\checkbox.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\checkbox\\css\\checkbox.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\checkbox\\css\\checkbox.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\checkbox\\css\\checkbox.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\checkbox\\js\\checkbox.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\checkbox\\js\\checkbox.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\README.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\changelog.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\css\\mCSB_buttons.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\css\\mCSB_buttons.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\css\\pmd-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\custom-scroll-npm.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\custom-scroll-npm.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\custom-scroll.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\custom-scroll.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\js\\jquery.mCustomScrollbar.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\js\\jquery.mCustomScrollbar.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\package.json"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\custom-scrollbar\\scss\\pmd-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\README.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\changelog.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\css\\pmd-datatable.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\data-table-npm.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\data-table-npm.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\data-table.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\data-table.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\js\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\js\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\package.json"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\_variables.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\_variables.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\_variables.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\_variables.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\data-table\\scss\\pmd-datatable.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\README.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\changelog.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\css\\bootstrap-datetimepicker.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\css\\bootstrap-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\css\\pmd-datetimepicker.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\datetimepicker-npm.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\datetimepicker-npm.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\datetimepicker.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\datetimepicker.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\js\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\js\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\js\\moment-with-locales.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\js\\moment-with-locales.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\package.json"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_transform.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_transform.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\datetimepicker\\scss\\pmd-datetimepicker.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\dropdown\\css\\dropdown.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\dropdown\\css\\dropdown.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\dropdown\\css\\dropdown.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\dropdown\\css\\dropdown.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\dropdown\\css\\dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\dropdown\\css\\dropdown.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\dropdown\\dropdown.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\dropdown\\dropdown.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\dropdown\\js\\dropdown.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\dropdown\\js\\dropdown.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\file-upload\\css\\image-upload.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\file-upload\\css\\image-upload.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\file-upload\\css\\upload-file.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\file-upload\\css\\upload-file.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\file-upload\\js\\upload-image.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\file-upload\\js\\upload-image.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\floating-action-button\\css\\floating-action-button.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\floating-action-button\\floating-action-button-pages\\floating-action-button-iframe.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\floating-action-button\\floating-action-button-pages\\floating-action-button-iframe.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\floating-action-button\\floating-action-button.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\floating-action-button\\floating-action-button.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\form\\form.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\form\\form.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\global\\js\\global.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\global\\js\\global.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\icons\\css\\google-icons.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\icons\\css\\google-icons.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\icons\\css\\google-icons.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\icons\\css\\google-icons.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\icons\\css\\google-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\icons\\css\\google-icons.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\icons\\propeller-icons.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\icons\\propeller-icons.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\list\\css\\list.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\list\\css\\list.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\list\\css\\list.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\list\\css\\list.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\list\\css\\list.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\list\\css\\list.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\list\\img\\40x40.png",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\list\\img\\40x40.png"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\list\\index.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\list\\index.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\modal\\css\\modal.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\modal\\css\\modal.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\modal\\css\\modal.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\modal\\css\\modal.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\modal\\css\\modal.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\modal\\css\\modal.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\modal\\modal.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\modal\\modal.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\css\\navbar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\css\\navbar.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\css\\navbar.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\css\\navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\css\\navbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\js\\navbar.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\js\\navbar.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\basic-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\basic-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\bootstrap-basic-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\bootstrap-basic-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\collapsible-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\collapsible-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\placement-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\placement-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\search-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\search-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar-pages\\sidebar-menu-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar-pages\\sidebar-menu-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\navbar\\navbar.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\navbar\\navbar.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\pagination\\css\\_notes\\dwsync.xml",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\pagination\\css\\_notes\\dwsync.xml"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\pagination\\css\\pagination.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\pagination\\css\\pagination.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\popover\\css\\popover.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\popover\\css\\popover.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\popover\\css\\popover.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\popover\\css\\popover.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\popover\\css\\popover.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\popover\\css\\popover.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\popover\\js\\popover.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\popover\\js\\popover.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\popover\\popover.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\popover\\popover.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\progressbar\\css\\progressbar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\progressbar\\css\\progressbar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\progressbar\\css\\progressbar.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\progressbar\\css\\progressbar.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\progressbar\\css\\progressbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\progressbar\\css\\progressbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\progressbar\\progressbar.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\progressbar\\progressbar.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\radio\\css\\radio.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\radio\\css\\radio.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\radio\\css\\radio.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\radio\\css\\radio.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\radio\\css\\radio.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\radio\\css\\radio.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\radio\\js\\radio.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\radio\\js\\radio.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\radio\\radio.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\radio\\radio.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\README.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\changelog.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\css\\jquery.nouislider.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\css\\jquery.nouislider.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\css\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\css\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\css\\range-slider.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\css\\range-slider.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\css\\range-slider.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\css\\range-slider.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\css\\range-slider.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\css\\range-slider.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\js\\jquery.nouislider.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\js\\jquery.nouislider.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\js\\nouislider.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\js\\nouislider.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\js\\wNumb.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\js\\wNumb.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\package.json"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\range-slider-npm.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\range-slider-npm.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\range-slider.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\range-slider.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\mixins\\_transform.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\mixins\\_transform.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\range-slider\\scss\\range-slider.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\README.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\README.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\changelog.md",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\changelog.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\pmd-select2.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\pmd-select2.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\pmd-select2.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\pmd-select2.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\pmd-select2.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\pmd-select2.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\select2-bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\select2-bootstrap.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\select2.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\select2.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\js\\pmd-select2.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\js\\pmd-select2.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\js\\select2.full.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\js\\select2.full.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\package.json",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\package.json"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\scss\\pmd-select2.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\select2-npm.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\select2-npm.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\select2\\select2.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\select2\\select2.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\shadow\\css\\shadow.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\shadow\\css\\shadow.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\shadow\\css\\shadow.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\shadow\\css\\shadow.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\shadow\\css\\shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\shadow\\css\\shadow.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\shadow\\shadow.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\shadow\\shadow.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\css\\sidebar.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\css\\sidebar.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\css\\sidebar.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\css\\sidebar.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\css\\sidebar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\css\\sidebar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\js\\sidebar.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\js\\sidebar.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\basic-sidebar-page-scss.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\basic-sidebar-page-scss.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\basic-sidebar-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\basic-sidebar-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\fixed-sidebar-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\fixed-sidebar-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\open-sidebar-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\open-sidebar-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\right-sidebar-page.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar-pages\\right-sidebar-page.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\sidebar\\sidebar.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\sidebar\\sidebar.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tab\\css\\tab.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tab\\css\\tab.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tab\\css\\tab.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tab\\css\\tab.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tab\\css\\tab.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tab\\css\\tab.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tab\\js\\tab-scrollable.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tab\\js\\tab-scrollable.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tab\\tabs.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tab\\tabs.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\table\\css\\table.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\table\\css\\table.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\table\\css\\table.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\table\\css\\table.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\table\\css\\table.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\table\\css\\table.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\table\\table.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\table\\table.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\textfield\\css\\textfield.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\textfield\\css\\textfield.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\textfield\\css\\textfield.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\textfield\\css\\textfield.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\textfield\\css\\textfield.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\textfield\\css\\textfield.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\textfield\\js\\textfield.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\textfield\\js\\textfield.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\textfield\\textfield.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\textfield\\textfield.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\toggle-switch\\css\\toggle-switch.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\toggle-switch\\toggle-switch.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\toggle-switch\\toggle-switch.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tooltip\\css\\tooltip.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tooltip\\css\\tooltip.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tooltip\\css\\tooltip.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tooltip\\css\\tooltip.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tooltip\\css\\tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tooltip\\css\\tooltip.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\tooltip\\tooltip.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\tooltip\\tooltip.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\typography\\css\\typography.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\typography\\css\\typography.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\typography\\css\\typography.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\typography\\css\\typography.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\typography\\css\\typography.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\typography\\css\\typography.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\components\\typography\\typography.html",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\components\\typography\\typography.html"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\css\\propeller.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\css\\propeller.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\css\\propeller.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\css\\propeller.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\css\\propeller.min.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\css\\propeller.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\css\\propeller.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\css\\propeller.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Black-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BlackItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Bold-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Italic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Light-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Medium-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-MediumItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-Thin-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\Roboto-ThinItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Bold-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-BoldItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Italic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Light-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-LightItalic-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.eot"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.svg"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.ttf"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\fonts\\roboto\\RobotoCondensed-Regular-webfont.woff"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\js\\propeller.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\js\\propeller.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\dist\\js\\propeller.min.js",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\dist\\js\\propeller.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_button.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_button.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_checkbox.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_checkbox.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_floating-action-button.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_floating-action-button.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_google-icons.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_google-icons.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_progressbar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_progressbar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_propeller-roboto.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_propeller-roboto.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_radio.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_radio.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_shadow.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_tab.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_tab.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_table.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_table.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_textfield.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_textfield.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_toggle-switch.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_toggle-switch.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_typography.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_accordion.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_font-face.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_font-face.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_popover.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_popover.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_textfield.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_textfield.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_transform.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_transform.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\propeller.css",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\propeller.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\propeller.css.map",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\propeller.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Propeller\\scss\\propeller.scss",
+      "PackagePath": "staticwebassets\\lib\\Propeller\\scss\\propeller.scss"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.css",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.js",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.min.mjs",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.mjs"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.min.mjs.map",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.min.mjs.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\Swiper\\swiper-bundle.mjs",
+      "PackagePath": "staticwebassets\\lib\\Swiper\\swiper-bundle.mjs"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\dotnet\\BookMe\\BookMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookMe.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookMe.MVC.props",
+      "PackagePath": "build\\BookMe.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookMe.MVC.props",
+      "PackagePath": "buildMultiTargeting\\BookMe.MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookMe.MVC.props",
+      "PackagePath": "buildTransitive\\BookMe.MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
